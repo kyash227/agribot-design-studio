@@ -30,8 +30,9 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <button className="btn-outline-forest text-sm px-6 py-2">User Portal</button>
-          <button className="btn-orange text-sm px-6 py-2">Get Started</button>
+          <button className="btn-outline-forest text-sm px-6 py-2">User Login</button>
+          <button className="btn-outline-forest text-sm px-6 py-2">Register</button>
+          <button className="btn-orange text-sm px-6 py-2">Admin Login</button>
         </div>
 
         {/* Mobile Toggle */}
@@ -57,8 +58,9 @@ const Navbar = () => {
             </a>
           ))}
           <div className="flex flex-col gap-3 pt-2">
-            <button className="btn-outline-forest text-sm py-2">User Portal</button>
-            <button className="btn-orange text-sm py-2">Get Started</button>
+            <button className="btn-outline-forest text-sm py-2">User Login</button>
+            <button className="btn-outline-forest text-sm py-2">Register</button>
+            <button className="btn-orange text-sm py-2">Admin Login</button>
           </div>
         </div>
       )}
